@@ -1,0 +1,64 @@
+body{
+	background-color: #232323;
+}
+h1,h3{
+	text-align : center;
+	color: #232323;
+	font-weight: bold;
+	font-size: 50%;
+	text-transform: uppercase;
+}
+.jombotron{
+	margin-bottom : 0px auto;
+}
+#colorDisplay{
+	font-size: 200%;
+}
+.square{
+	border-radius: 25px;
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	transition : all 0.5s;
+	-webkit-transition : all 0.5s;
+	-moz-transition : all 0.5s;
+}
+
+#messageDisplay{
+	font-weight: bold;
+	display: inline-block;
+	width : 20%;
+}
+
+#container{
+	margin : 10px auto;
+	max-width: 600px;
+}
+#stripe{
+	text-align : center;
+	background : grey;
+	margin-top : 20px;
+ 
+}
+button{
+	background : grey;
+		border : none;
+		font-size: inherit;
+	font-weight: bold;
+	transition: all 0.5s;
+	-webkit-transition : all 0.5s;
+	-moz-transition : all 0.5s;
+	outline : none;
+}
+
+button:hover {
+	color : white;
+	background :black;
+
+}
+
+.selected{
+	background: yellow;
+}
